@@ -15,6 +15,7 @@ export default function SignUpForm() {
         }
       );
       const result = await response.json();
+      setToken(result.token);
       console.log(result);
     } catch (error) {
       setError(error.message);
