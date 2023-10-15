@@ -4,6 +4,7 @@ import SignUpForm from './Components/SignUpForm';
 import Authenticate from './Components/Authenticate';
 import DarkModeToggle from './Components/DarkModeToggle';
 
+
 function App() {
   const [token, setToken] = useState(null);
   const [darkMode, setDarkMode] = useState(false);

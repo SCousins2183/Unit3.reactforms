@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 const DarkModeToggle = ({ darkMode, toggleDarkMode }) => {
   return (
-    <lable>
+    <label className="switch">
       <input type="checkbox" checked={darkMode} onChange={toggleDarkMode} />
-      Dark Mode
-    </lable>
+      <span className="slider"></span>
+    </label>
   );
 };
 
